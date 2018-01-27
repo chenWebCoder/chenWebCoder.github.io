@@ -1,20 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[测试引入图片]]></title>
-    <url>%2F2018%2F01%2F27%2Faa%2F</url>
-    <content type="text"><![CDATA[一下是内容]]></content>
-  </entry>
-  <entry>
-    <title><![CDATA[My first Blog]]></title>
-    <url>%2F2018%2F01%2F25%2Ffirst%2F</url>
-    <content type="text"><![CDATA[这是我的一篇博客，我很高兴。]]></content>
-      <categories>
-        <category>随笔</category>
-      </categories>
+    <title><![CDATA[My first blog]]></title>
+    <url>%2F2018%2F01%2F27%2Ffirst%2F</url>
+    <content type="text"><![CDATA[第一篇博文身为前端路上的一个菜鸟，刚开始说道建一个属于自己的博客内心还是拒绝的。毕竟是菜鸟，可不能误人子弟传播”负能量”，哈哈哈。但是就像我大博客的初衷说的一样”好记性不如烂笔头”，所以思来想去还是觉得搭建博客还是有必要的，至少可以记录自己趟过得河，踩过的雷，记录自己的点滴。 就此我的博客诞生了。屌丝也有春天，加油！]]></content>
       <tags>
-        <tag>笔记</tag>
-        <tag>随便写写</tag>
+        <tag>随笔</tag>
       </tags>
   </entry>
 </search>
