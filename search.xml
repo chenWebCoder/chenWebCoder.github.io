@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[测试引入图片]]></title>
+    <url>%2F2018%2F01%2F27%2Faa%2F</url>
+    <content type="text"><![CDATA[一下是内容]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[My first Blog]]></title>
+    <url>%2F2018%2F01%2F25%2Ffirst%2F</url>
+    <content type="text"><![CDATA[这是我的一篇博客，我很高兴。]]></content>
+      <categories>
+        <category>随笔</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>随便写写</tag>
+      </tags>
+  </entry>
+</search>
