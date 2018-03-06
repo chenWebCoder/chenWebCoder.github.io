@@ -9,6 +9,14 @@
       </tags>
   </entry>
   <entry>
+    <title><![CDATA[React学习笔记(一)]]></title>
+    <url>%2F2018%2F03%2F06%2FReact01%2F</url>
+    <content type="text"><![CDATA[前言由于工作的需要，所以不得不暂时的告别以前的好伙伴VUE，转而学习另一个优秀的框架 – React！一下是个人在学习 React 的过程中的一些笔记。 首先，还是从官网开撸，这里是 React 中文官网 快速搭建一个新的 React 项目框架由于知道在 Vue 中有一个叫做vue-cli的脚手架，他会下载一个新的项目模板，快速的搭建起开发环境。那么在React中我想当然也是有类似的东西存在呢？当然是有的了，官方推荐使用的是：create-react-app 简单介绍一下使用脚手架搭建项目环境的原因： 无需配置； 集成了对 React, JSX, ES6 和 Flow 的支持； 集成了开发服务器，配置好了浏览器热加载的功能； 在 JavaScript 中可以直接 import CSS 和图片； 自动处理 CSS 的兼容问题，无需添加 -webkit 前缀； 集成好了编译命令，编译后直接发布成产品，并且还包含了 sourcemaps； 下面我们就来看看使用脚手架如何快速构建开发环境 1、安装create-react-app 使用npm进行下载安装：npm install -g create-react-app，通过使用-g参数来进行全局安装并解决相关权限的限制 2、创建一个新项目，项目名称为app create-react-app app 3、运行新项目 进入新项目：cd app运行新项目：npm start]]></content>
+      <tags>
+        <tag>React</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[My first blog]]></title>
     <url>%2F2018%2F01%2F27%2Ffirst%2F</url>
     <content type="text"><![CDATA[第一篇博文身为前端路上的一个菜鸟，刚开始说道建一个属于自己的博客内心还是拒绝的。毕竟是菜鸟，可不能误人子弟传播”负能量”，哈哈哈。但是就像我大博客的初衷说的一样”好记性不如烂笔头”，所以思来想去还是觉得搭建博客还是有必要的，至少可以记录自己趟过得河，踩过的雷，记录自己的点滴。 就此我的博客诞生了。屌丝也有春天，加油！]]></content>
