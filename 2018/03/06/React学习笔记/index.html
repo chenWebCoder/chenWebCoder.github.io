@@ -136,11 +136,12 @@
 <meta property="og:url" content="http://yoursite.com/2018/03/06/React学习笔记/index.html">
 <meta property="og:site_name" content="CeiWei&#39;s Blog">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="http://yoursite.com/2018/03/06/React学习笔记/first/function.jpg">
-<meta property="og:updated_time" content="2018-03-06T01:11:50.840Z">
+<meta property="og:image" content="http://yoursite.com/2018/03/06/React学习笔记/img/react/React.jpg">
+<meta property="og:image" content="http://yoursite.com/2018/03/06/React学习笔记/img/react/react-install.png">
+<meta property="og:updated_time" content="2018-03-06T02:39:23.467Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="React学习笔记(一)">
-<meta name="twitter:image" content="http://yoursite.com/2018/03/06/React学习笔记/first/function.jpg">
+<meta name="twitter:image" content="http://yoursite.com/2018/03/06/React学习笔记/img/react/React.jpg">
 
 
 
@@ -428,7 +429,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  251
+                  381
                 </span>
               
 
@@ -465,28 +466,36 @@
       
 
       
-        <p><img src="/2018/03/06/React学习笔记/first/function.jpg" alt="图片"></p>
+        <p><img src="/2018/03/06/React学习笔记/img/react/React.jpg" alt="图片"></p>
 <a id="more"></a>
-<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><pre><code>在我们编写JS代码时，用到函数是必须的，尤其是在模块化编程的过程中，函数更是起着相当重要的作用。那么我们话不多说，就让我们来认识一下JavaScript中这个重要的知识 -- 函数(Function)
-</code></pre><h3 id="函数基础"><a href="#函数基础" class="headerlink" title="函数基础"></a>函数基础</h3><h4 id="什么是函数？"><a href="#什么是函数？" class="headerlink" title="什么是函数？"></a>什么是函数？</h4><pre><code>定义：具有特殊功能并且能够进行反复调用的代码段。函数可以接受不同的参数，并且不同的函数可以返回不同的值。
-</code></pre><h4 id="什么时候使用函数？"><a href="#什么时候使用函数？" class="headerlink" title="什么时候使用函数？"></a>什么时候使用函数？</h4><pre><code>如果一段代码在你的程序中反复出现了多次，就可以使用函数将其进行封装。
-</code></pre><h4 id="如何使用函数？"><a href="#如何使用函数？" class="headerlink" title="如何使用函数？"></a>如何使用函数？</h4><pre><code>1、申明函数。
-    在JavaScript中，有三种方式可以进行函数的申明，分别是：
+<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>由于工作的需要，所以不得不暂时的告别以前的好伙伴VUE，转而学习另一个优秀的框架 – React！一下是个人在学习 React 的过程中的一些笔记。</p>
+<p>首先，还是从官网开撸，这里是 <a href="https://doc.react-china.org/" target="_blank" rel="noopener">React 中文官网</a></p>
+<h2 id="快速搭建一个新的-React-项目框架"><a href="#快速搭建一个新的-React-项目框架" class="headerlink" title="快速搭建一个新的 React 项目框架"></a>快速搭建一个新的 React 项目框架</h2><p>由于知道在 Vue 中有一个叫做vue-cli的脚手架，他会下载一个新的项目模板，快速的搭建起开发环境。那么在React中我想当然也是有类似的东西存在呢？当然是有的了，官方推荐使用的是：create-react-app</p>
+<p>简单介绍一下使用脚手架搭建项目环境的原因：</p>
+<blockquote>
+<ul>
+<li>无需配置；</li>
+<li>集成了对 React, JSX, ES6 和 Flow 的支持；</li>
+<li>集成了开发服务器，配置好了浏览器热加载的功能；</li>
+<li>在 JavaScript 中可以直接 import CSS 和图片；</li>
+<li>自动处理 CSS 的兼容问题，无需添加 -webkit 前缀；</li>
+<li>集成好了编译命令，编译后直接发布成产品，并且还包含了 sourcemaps；</li>
+</ul>
+</blockquote>
+<p>下面我们就来看看使用脚手架如何快速构建开发环境</p>
+<p>1、安装create-react-app</p>
+<blockquote>
+<p>使用npm进行下载安装：<code>npm install -g create-react-app</code>，通过使用-g参数来进行全局安装并解决相关权限的限制</p>
+</blockquote>
+<p>2、创建一个新项目，项目名称为app</p>
+<blockquote>
+<p>create-react-app app</p>
+</blockquote>
+<p>3、运行新项目</p>
+<blockquote>
+<p>进入新项目：cd app<br>运行新项目：npm start<br><img src="/2018/03/06/React学习笔记/img/react/react-install.png" alt="react-install"></p>
+</blockquote>
 
-    (1)、function命令
-        function 函数名 ([函数参数列表]) {
-            // somecode(函数体)
-            [return 值;]
-        }
-
-    (2)、函数表达式
-        var 函数名 = function([函数参数列表]){
-            // somecode(函数体)
-            [return 值;]
-        }
-
-    (3)、Function构造函数
-</code></pre>
       
     </div>
     
@@ -676,7 +685,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#前言"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#函数基础"><span class="nav-number">2.</span> <span class="nav-text">函数基础</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#什么是函数？"><span class="nav-number">2.1.</span> <span class="nav-text">什么是函数？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#什么时候使用函数？"><span class="nav-number">2.2.</span> <span class="nav-text">什么时候使用函数？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#如何使用函数？"><span class="nav-number">2.3.</span> <span class="nav-text">如何使用函数？</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#前言"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#快速搭建一个新的-React-项目框架"><span class="nav-number">2.</span> <span class="nav-text">快速搭建一个新的 React 项目框架</span></a></li></ol></div>
             
 
           </div>
@@ -720,7 +729,7 @@
 
 <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-count">博客全站共392字</span>
+  <span class="post-count">博客全站共522字</span>
 </div>
 
         
