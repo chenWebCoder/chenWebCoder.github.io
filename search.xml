@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[React学习笔记(一)]]></title>
+    <url>%2F2018%2F03%2F06%2FReact%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%2F</url>
+    <content type="text"><![CDATA[前言在我们编写JS代码时，用到函数是必须的，尤其是在模块化编程的过程中，函数更是起着相当重要的作用。那么我们话不多说，就让我们来认识一下JavaScript中这个重要的知识 -- 函数(Function) 函数基础什么是函数？定义：具有特殊功能并且能够进行反复调用的代码段。函数可以接受不同的参数，并且不同的函数可以返回不同的值。 什么时候使用函数？如果一段代码在你的程序中反复出现了多次，就可以使用函数将其进行封装。 如何使用函数？1、申明函数。 在JavaScript中，有三种方式可以进行函数的申明，分别是： (1)、function命令 function 函数名 ([函数参数列表]) { // somecode(函数体) [return 值;] } (2)、函数表达式 var 函数名 = function([函数参数列表]){ // somecode(函数体) [return 值;] } (3)、Function构造函数]]></content>
+      <tags>
+        <tag>React</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[My first blog]]></title>
     <url>%2F2018%2F01%2F27%2Ffirst%2F</url>
     <content type="text"><![CDATA[第一篇博文身为前端路上的一个菜鸟，刚开始说道建一个属于自己的博客内心还是拒绝的。毕竟是菜鸟，可不能误人子弟传播”负能量”，哈哈哈。但是就像我大博客的初衷说的一样”好记性不如烂笔头”，所以思来想去还是觉得搭建博客还是有必要的，至少可以记录自己趟过得河，踩过的雷，记录自己的点滴。 就此我的博客诞生了。屌丝也有春天，加油！]]></content>
